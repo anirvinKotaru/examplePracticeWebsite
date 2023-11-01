@@ -1,0 +1,193 @@
+/*Styling for Whole Page*/
+body{
+    
+    background: #E8E9EB;
+    margin: 0;
+    font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 600;
+    position: relative;
+    min-height: 100vh;
+    padding 0px 60px;
+}
+
+/*First Header*/
+
+h1{
+    text-align: center;
+    font-weight: normal;
+}
+
+/*Second Header*/
+
+h2{
+    text-align: left;
+    font-weight: normal;
+}
+
+/*Third Header*/
+
+h3{
+    text-align: left;
+    font-weight: normal;
+}
+
+/*Normal Text Styling*/
+
+p{
+    font-size: 16px;
+    font-weight: normal;
+}
+
+#description
+{
+    padding: 0px 10%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+/*Styling Top of Page*/
+
+header{
+    color: white;
+    padding: 20px;
+    background: #313638;
+    font-family: 'Arial Black';font-size: 22px;
+}
+
+/*Navigation Bar*/
+
+.navbar{
+    font-weight: 600;
+    font-size: 18px;
+    display: flex;
+    background: #71A9F7;
+
+}
+
+/*Navigation Links*/
+
+.navbarItems{
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+/*Styling Navigation Bar Links when Mouse Hovers over it*/
+
+.navbarItems:hover{
+    color: black;
+    background: #F99417;
+    text-decoration: none;
+}
+
+article{
+    text-align: center;
+    margin: 20px;
+    height: 100%;
+}
+
+/*Styling Invest Link*/
+
+.invest
+{
+    text-align: left;
+    color: black;
+    text-decoration: none;
+}
+
+.invest:hover
+{
+    text-align: left;
+    color: black;
+    text-decoration: underline;
+}
+
+/*Styling Button*/
+
+.buttonHome
+{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+#Find
+{
+    font-size: 20px;
+    font-weight: normal;
+    border: 0px;
+    padding: 10px;
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+    background: #71A9F7;
+}
+
+/*Styling Button when Mouse Hovers over it*/
+
+#Find:hover{
+    background: #F99417;
+}
+
+/*Styling Body without Navigation Bar*/
+
+#content {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 2.5rem;    /* Footer height */
+}
+
+.examples{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: 0px 0px 48px;
+}
+
+.mySlides{
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    width: 100%;
+    padding: 0px 12px;
+}
+
+#addOwn
+{
+    text-align:center;
+    background: white;
+    margin: 10%;
+    padding: 100px;
+}
+
+/*Styling Footer*/
+
+#footer
+{   
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;            /* Footer height */
+    font-size: 10px;
+    font-weight: normal;
+    color: white;
+    background: #313638;
+}
+
+.footerTitle{
+    font-size: 20px;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+/*Styling Footer when Mouse Hovers over it*/
+
+.footerTitle:hover{
+    color: #F99417;
+}
